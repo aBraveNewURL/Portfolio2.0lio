@@ -27,7 +27,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: #d8154c;
   color: #222;
   border: 1px solid white;
   font-weight: 600;
@@ -42,5 +42,5 @@ ul {
 .btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: white;
-  transition: 0.3s;
+  transition: 0.15s;
 }
