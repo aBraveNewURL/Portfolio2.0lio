@@ -72,6 +72,10 @@
     margin-right: auto; 
   }
 
+.right a:hover {
+    color: rgb(250, 0, 162);
+}
+
 @media screen and (max-width: 640px) {
     .footer-container {
         grid-template-columns: 1fr;
