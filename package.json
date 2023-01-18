@@ -1,7 +1,7 @@
 {
   "name": "portfolio2.0lio",
   "version": "0.1.0",
-  "homepage": "https://aBraveNewURL.github.io/About",
+  "homepage": "https://abravenewurl.github.io/Portfolio2.0lio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",   
