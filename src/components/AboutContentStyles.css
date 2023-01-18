@@ -1,29 +1,48 @@
 .about {
   width: 100%;
+  height: 65vh;
   margin: 3rem 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex;
   flex-wrap: wrap;
-  height: 100%;
+  background-image: url("https://scontent-fml2-1.xx.fbcdn.net/v/t31.18172-8/28515260_10212020381290961_4458573953626405094_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=2oyV8IK_fh0AX_zMh18&tn=MoLv0kINLVQAhHDg&_nc_ht=scontent-fml2-1.xx&oh=00_AfAuRGoir-P6-K2AWP1_q0gP47SP0IdnhGMq-RPU4XYE1w&oe=63EEDD11");
+  background-position: right;
+}
+
+.about h1 {
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 .about .left {
-  text-align: center;
+  height: 20vh;
+  text-align: left;
   margin: auto;
   padding: 1rem;
   max-width: 350px;
 }
 
 .about .left p {
+  font-size: 16pt;
   margin: 1.2rem 0;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
-.about .right{
+/* .about .right{
   max-width: 700px;
-}
+} */
 
-.right .img-container {
+/* .right .img-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
@@ -32,7 +51,7 @@
 }
 
 .right .img {
-  max-width: 90%;
+  max-width: 100%;
   border: 1px solid #333;
 }
 
@@ -47,7 +66,7 @@
   grid-column: 4 / -1;
   grid-row: 1;
   z-index: 5;
-}
+} */
 
 .left .btn {
     width: 150px;
@@ -62,4 +81,10 @@
   border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
+}
+
+.left .btn:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: white;
+  transition: 0.15s;
 }
