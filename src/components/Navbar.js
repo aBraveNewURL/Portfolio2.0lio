@@ -34,7 +34,7 @@ const Navbar = () => {
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="/project">Portfolio</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
