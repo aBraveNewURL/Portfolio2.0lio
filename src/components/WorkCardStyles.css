@@ -13,6 +13,7 @@
 }
 
 .project-card {
+    background: #1a1919;
     padding: 1.2rem 1rem;
 
 }
@@ -42,6 +43,10 @@
 .pro-btns .btn {
     padding: 0.5rem 1rem;
 }
+
+/* .pro-details a.btn {
+    
+} */
 
 @media screen and (max-width: 740px){
     .project-container {
