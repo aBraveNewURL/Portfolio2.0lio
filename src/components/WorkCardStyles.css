@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 }
 
 .project-card {
@@ -20,6 +20,7 @@
 
 .project-card img {
     width: 100%;
+
 }
 
 .project-title {
@@ -28,27 +29,26 @@
     padding: 1rem 0;
 }
 
-.pro-details p{
+.pro-details p {
     text-align: center;
     padding-bottom: 1rem;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .pro-btns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
+    display: flex; 
+    justify-content:space-between;
+    padding: 0.5rem;
 }
 
-.pro-btns .btn {
+.pro-btns .btn1 {
     padding: 0.5rem 1rem;
 }
 
-/* .pro-details a.btn {
-    
-} */
 
-@media screen and (max-width: 740px){
+
+@media screen and (max-width: 740px) {
     .project-container {
         max-width: 90%;
         margin: auto;
