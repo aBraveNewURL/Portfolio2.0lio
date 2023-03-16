@@ -26,6 +26,11 @@
     font-weight: 500;
 }
 
+.nav-menu li a:hover{
+    color: rgb(250, 0, 162);
+}
+
+
 .hamburger {
     display: none;
 }
@@ -58,7 +63,9 @@
     .nav-menu li a {
         font-size: 2rem;
     }
-
+     /* {
+        color: rgb(250, 0, 162);
+    } */
     .nav-menu li a:hover {
         color:rgb(217, 217, 249)
     }
