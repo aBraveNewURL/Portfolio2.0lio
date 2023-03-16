@@ -20,7 +20,7 @@
 }
 
 .about .left {
-  height: 20vh;
+  height: 35vh;
   text-align: left;
   margin: auto;
   padding: 1rem;
@@ -28,7 +28,7 @@
 }
 
 .about .left p {
-  font-size: 16pt;
+  font-size: 18pt;
   margin: 1.2rem 0;
   color: white;
   text-shadow:

@@ -12,7 +12,7 @@ const AboutContent = () => {
         <div className='about'>
             <div className='left'>
                 <h1>Who Am I?</h1>
-                <p>I am an aspiring front-end developer who loves to create fun and interesting content.</p>
+                <p>I am an aspiring developer who loves to create fun and interesting content.</p>
                 <p>In my spare time I enjoy travelling, trying new foods, and learning about new and exciting technologies.</p>
                 <Link to="/contact">
                     <button className='btn'>Contact</button>
