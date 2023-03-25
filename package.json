@@ -4,6 +4,7 @@
   "homepage": "https://aBraveNewURL.github.io/Portfolio2.0lio/",
   "private": true,
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "@testing-library/jest-dom": "^5.16.5",   
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -18,6 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "emailjs": "npm install emailjs-com --save",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
