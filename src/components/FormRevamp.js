@@ -25,10 +25,10 @@ function ContactForm() {
       'YOUR_USER_ID'
     )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        console.log('Successfully Sent!', response.status, response.text);
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        console.log('Send Failed :(', err);
       });
 
     setName('');
